@@ -1,11 +1,23 @@
 Package: foofactors
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Make Factors Less Aggravating
 Version: 0.1.0
 Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Description: Factors have driven people to extreme measures, like ordering
+    custom conference ribbons and laptop stickers to express how HELLNO we
+    feel about stringsAsFactors. And yet, sometimes you need them. Can they
+    be made less maddening? Let's find out.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Authors: Rosemary Pegler
+Authors@R: 
+    person(given = "Rosemary",
+           family = "Pegler",
+           email = "rose.pegler@sharecreative.com")
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat
+Imports: 
+    forcats
